@@ -1,0 +1,162 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, serif;
+
+}
+
+body{
+    background:linear-gradient(to right,#ffffff , #2c3e50);
+    color: white;
+    font-family: Georgia, serif;
+}
+.upperDiv{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.upperDiv button{
+    width: 150px;
+    height: 50px;
+    font-family: Georgia, serif;
+    font-size: 10px;
+    background-color: #ffae4c;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+}
+
+.between {
+    margin-right: 50px;
+}
+
+.again {
+    margin-left: 50px;
+}
+.heading h1{
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 8px;
+}
+.mark{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 150px;
+    background-color: #ffae4c;
+    color: #fff;
+    margin: 45px auto;
+    font-size: 60px    ;
+}
+.mainContainer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 80px;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.mainContainer input{
+    width: 100%;
+    height: 100px;
+    font-size: 30px;
+}
+.mainContainer button{
+    width: 100%;
+    height: 50px;
+    margin-top: 40px;
+    font-family: Georgia, serif;
+}
+.Right-side {
+    font-size: 25px;
+    padding: 0px 0px 20px 0px;
+   
+}
+.left{
+    padding: 20px;
+}
+.center{
+    align-self: center;
+    font-size: 35px;
+}
+.checkButton{
+    font-size: 15px;
+    background-color: #ffae4c;
+    font-family: Georgia, serif;
+    border-radius: 20px;
+
+}
+.userInput{
+    background-color: #a7c6e6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: black;
+    opacity: 0.8;
+}
+.Modal{
+    position: absolute;
+    width: 50%;
+    height: fit-content;
+    top: 10%;
+    left: 0;
+    right: 0;
+    background-color: black;
+    border-radius: 10px;
+    border: 2px double white;
+    font-size: 25px;
+    padding: 40px 20px; 
+    margin: 50px auto 0 auto;
+}
+.flexBox{
+    display: flex;
+    flex-direction: column;
+}
+.close{
+    /* position: absolute;
+    right: 0;
+    top: 0; */
+
+    padding: 5px;
+    margin: 10px;
+}
+.hidden{
+    display: none;
+}
+
+
+
+
+@media(max-width: 1024px){
+    .Right-side{
+        font-size: 25px;
+    }
+    .center{
+        font-size: 30px;
+    }
+    .modalText{
+        font-size: 20px;
+    }
+}
+
+@media(min-width: 320px) and (max-width: 500px){
+    .mark{
+        font-size: 50px;
+        width: 150px;
+        height: 150px;
+    }
+    .upperDiv{
+        padding: 2px;
+    }
+}
